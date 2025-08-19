@@ -1,0 +1,11 @@
+@media (max-width: 830px) {
+  .song-selector-container {
+    display: none;
+  }
+  .app-container {
+    width: 26rem;
+  }
+  .player-container {
+    gap: 3rem;
+  }
+}

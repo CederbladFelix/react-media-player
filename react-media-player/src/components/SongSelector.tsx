@@ -13,6 +13,7 @@ export const SongSelector = (): ReactElement => {
           { artist: "Zedd & Aloe Blacc", songName: "Candyman" },
           { artist: "Rag'n'Bone Man", songName: "Human" },
           { artist: "Imagine Dragons", songName: "Shots (Broiler Remix)" },
+          { artist: "Cool Band", songName: "Cool Song" },
         ]}
       />
     </div>

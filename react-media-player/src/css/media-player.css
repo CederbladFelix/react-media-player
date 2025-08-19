@@ -7,6 +7,11 @@
 html,
 body {
   height: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  font-weight: 300;
 }
 
 body {
@@ -16,7 +21,7 @@ body {
 }
 
 .app-container {
-  background-color: rgba(0, 50, 200, 0.5);
+  background: linear-gradient(to bottom, #2a3446 0%, #1a2333 100%);
   width: 52rem;
   height: 44rem;
   display: flex;
@@ -24,6 +29,8 @@ body {
 }
 
 .header {
+  background-color: rgba(31, 43, 61, 0.8);
+  backdrop-filter: blur(4px);
   display: flex;
   justify-content: space-between;
   padding-inline: 2rem;
@@ -41,4 +48,3 @@ body {
 .song-selector-container {
   flex: 1;
 }
-
