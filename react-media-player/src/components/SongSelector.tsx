@@ -1,10 +1,10 @@
 import type { ReactElement } from "react";
-import { Songs } from "./Songs";
+import { PlaylistSongs } from "./PlaylistSongs";
 
 export const SongSelector = (): ReactElement => {
   return (
     <div className="song-selector-container">
-      <Songs
+      <PlaylistSongs
         songs={[
           { artist: "A Rocket to the moon", songName: "Like we used to" },
           { artist: "John Legend", songName: "Save the room" },

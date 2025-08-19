@@ -1,0 +1,43 @@
+.player-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  color: white;
+}
+
+.player-image {
+  width: 20rem;
+  height: 20rem;
+}
+
+.meta-section,
+.time-slider-container,
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-inline: 2rem;
+  flex: 1;
+}
+
+.songname-artist-player-container {
+  text-align: center;
+}
+
+.songname-artist-player-container > p, .songname-artist-player-container > h4 {
+    font-size: 1.2rem;
+}
+
+.slider {
+  width: 15rem;
+}
+
+.buttons-container {
+  padding-inline: 4rem;
+}
+
+.big-icon {
+  font-size: 3rem;
+}

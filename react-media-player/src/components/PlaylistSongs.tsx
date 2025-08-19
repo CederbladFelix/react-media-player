@@ -6,7 +6,11 @@ type SongsMeta = Array<{
   songName: string;
 }>;
 
-export const Songs = ({ songs }: { songs: SongsMeta }): ReactElement => {
+export const PlaylistSongs = ({
+  songs,
+}: {
+  songs: SongsMeta;
+}): ReactElement => {
   return (
     <>
       {songs.map((song) => (

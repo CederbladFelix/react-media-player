@@ -42,25 +42,3 @@ body {
   flex: 1;
 }
 
-.song-selector-container {
-  overflow-y: auto;
-}
-
-.song-container {
-  color: white;
-  display: flex;
-  align-items: center;
-  padding-inline: 1.5rem;
-  padding-block: 1rem;
-}
-
-.song-image {
-  width: 5rem;
-  height: 5rem;
-  border-radius: 8px;
-}
-
-.songname-artist-container {
-  padding-inline: 0.5rem;
-  flex: 1;
-}
