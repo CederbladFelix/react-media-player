@@ -1,7 +1,7 @@
 import type { ReactElement } from "react";
 import SongImage from "../assets/song-image.png";
 
-type SongsMeta = Array<{
+export type SongsMeta = Array<{
   artist: string;
   songName: string;
 }>;
