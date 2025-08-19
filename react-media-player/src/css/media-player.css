@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-container {
+  background-color: rgba(0, 50, 200, 0.5);
+  width: 52rem;
+  height: 44rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 2rem;
+  padding-block: 0.5rem;
+  padding-bottom: 1rem;
+  color: white;
+}
+
+.main-container {
+  display: flex;
+  overflow: hidden;
+}
+
+.player-container,
+.song-selector-container {
+  flex: 1;
+}
+
+.song-selector-container {
+  overflow-y: auto;
+}
+
+.song-container {
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-inline: 1.5rem;
+  padding-block: 1rem;
+}
+
+.song-image {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 8px;
+}
+
+.songname-artist-container {
+  padding-inline: 0.5rem;
+  flex: 1;
+}
