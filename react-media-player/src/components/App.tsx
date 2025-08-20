@@ -1,6 +1,6 @@
 import { Header } from "./Header";
 import { Player } from "./Player";
-import { SongSelector } from "./SongSelector";
+import { PlayList } from "./PlayList";
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <div className="app-container">
         <Header />
         <main className="main-container">
-          <SongSelector />
+          <PlayList />
           <Player />
         </main>
       </div>
